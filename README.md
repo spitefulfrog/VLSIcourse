@@ -10,3 +10,16 @@ then run the sythesis using the 'run_sythesis' command.
 
 flip ratio = no. of dflops/no of cells = 1613/14876 
 <h3>approx. = 10.84297%</h3>
+<h1>DAY 2:</h1>
+
+<h2>viewing the floorplan:</h2>
+
+After running the floorplan using the 'run_floorplan command', it can be viewed using a piece of software called magic.
+
+Magic required 3 paths to be given, the path for the .tech file, the .lef file for the same chip and the .def file
+
+the command, for the picorv32a, with the sky130 PDK is this:
+
+Attatched below is the graphiccal view of the picorv32a microcontroller using magic:
+
+![image](https://github.com/user-attachments/assets/7fad648a-6d9d-42af-8acb-e99f32a2849b)
