@@ -23,3 +23,23 @@ the command, for the picorv32a, with the sky130 PDK is this:
 Attatched below is the graphiccal view of the picorv32a microcontroller using magic:
 
 ![image](https://github.com/user-attachments/assets/7fad648a-6d9d-42af-8acb-e99f32a2849b)
+
+<h1>DAY 3:</h1>
+
+<h2>Using SPICE software to simulate your circuit:</h2>
+
+Using magic, a spice file can be extracted, and here are the commands to be entered in magics tkcon window to do so:
+
+<ul>
+  >extract all
+  >ext2spice cthresh 0 rthresh 0 (Can be ignored. Adds extra details)
+  >ext2spice 
+</ul>
+
+To SPICE simulate the dezired circuit, a few modifications must be made, and those are:
+
+<ul>
+  >Include the technical specification of the used components, which in this case are the PMOS and NMOS transistors.
+  >Power the entire circuit, which in this case was done by creating a 3.3 volt power supply called 'VSS' and a ground called 'VDD'
+  >Pulse the inputs of the transistors 
+</ul>
