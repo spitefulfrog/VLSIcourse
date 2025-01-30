@@ -62,6 +62,8 @@ After that, to plot the output and input vs time, type the following in the ngsp
 </ul>
 
 here is the screenshot of the same:
+![Uploading image.png…]()
+
 
 <h3>Analysis of circuitry</h3>
 
