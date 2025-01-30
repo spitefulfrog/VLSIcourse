@@ -48,4 +48,25 @@ Here is the .spice file with the changes included:
 
 ![image](https://github.com/user-attachments/assets/20f8efcb-bda4-4069-bdee-d8eec1e28192)
 
-<h3
+<h3>Running the SPICE simulation</h3>
+
+To invoke the ngspice software, type the following in your terminal :
+<ul>
+  >ngspice 'your file's name.spice'
+</ul>
+
+After that, to plot the output and input vs time, type the following in the ngspice terminal:
+
+<ul>
+  >plot  vs time a
+</ul>
+
+here is the screenshot of the same:
+
+<h3>Analysis of circuitry</h3>
+
+<h4>Rise time:</h4>
+Is the difference between times of 20% rise of the y axis and 8-% rise of the y axis.
+<h4>Cell rise delay</h4>
+Is the difference between the 50% of the  input and the 50% of the output
+
