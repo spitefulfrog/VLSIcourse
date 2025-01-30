@@ -46,6 +46,6 @@ To SPICE simulate the dezired circuit, a few modifications must be made, and tho
 
 Here is the .spice file with the changes included:
 
-![image](https://github.com/user-attachments/assets/a1f103d1-fdc1-4f96-bcd3-031943620daf)
+![image](https://github.com/user-attachments/assets/20f8efcb-bda4-4069-bdee-d8eec1e28192)
 
-
+<h3
