@@ -43,3 +43,8 @@ To SPICE simulate the dezired circuit, a few modifications must be made, and tho
   >Power the entire circuit, which in this case was done by creating a 3.3 volt power supply called 'VSS' and a ground called 'VDD'
   >Pulse the inputs of the transistors 
 </ul>
+
+Here is the .spice file with the changes included:
+
+![image](https://github.com/user-attachments/assets/4ff8a244-5bd7-4375-b7d6-ae33ea4ca7fd)
+
