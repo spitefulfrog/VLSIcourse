@@ -84,3 +84,10 @@ The following should be types in order to convert a mag file into a lef file:
   >lef writeall
 </ul>
 
+<h2>Modifying the openlane flow:</h2>
+The openlane flow can be modifies by changing the config.tcl file for that design.I will be including a renamed version of the standard skyrc inverter. To do so, you need to add the renamed inverter file and its associated part files using the syntax shown in the screenshot:
+
+![image](https://github.com/user-attachments/assets/c71611bf-7fb4-4f31-970d-a6c9e7bcc065)
+
+and in the during the synthesis process, you will see that your inverter with your filename will be included.
+
