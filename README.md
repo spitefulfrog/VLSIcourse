@@ -73,3 +73,14 @@ Is the difference between times of 20% rise of the y axis and 8-% rise of the y 
 <h4>Cell rise delay</h4>
 Is the difference between the 50% of the  input and the 50% of the output
 
+<h1> Day 3:</h1>
+<h2>Converting a mag file into a lef file:</h2>
+
+LEF files contain only as many detailsas required for placement and routing, and are more universl compared to .mag files, used only by magic, which is why LEFs are prefered over other formats.
+
+The following should be types in order to convert a mag file into a lef file:
+
+<ul>
+  >lef writeall
+</ul>
+
