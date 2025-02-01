@@ -89,5 +89,6 @@ The openlane flow can be modifies by changing the config.tcl file for that desig
 
 ![image](https://github.com/user-attachments/assets/c71611bf-7fb4-4f31-970d-a6c9e7bcc065)
 
-and in the during the synthesis process, you will see that your inverter with your filename will be included.
+and in the during the synthesis process, you will see that your inverter with your filename will be included,as seen in the 3rd line of the terminal in the given screenshot:
 
+![image](https://github.com/user-attachments/assets/d63d618e-cbb8-4e32-82b9-df162d350250)
